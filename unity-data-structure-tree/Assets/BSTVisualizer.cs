@@ -60,10 +60,7 @@ public class BSTVisualizer : MonoBehaviour
 
                 RedrawCurrentTree();
 
-                if (nodeInputField != null)
-                {
-                    nodeInputField.text = randomKey.ToString();
-                }
+                nodeInputField.text = randomKey.ToString();
 
                 Debug.Log($"[추가 성공] 랜덤 노드 {randomKey} 생성 완료.");
                 return; 

@@ -1,10 +1,10 @@
 using TreeEditor;
 using UnityEngine;
 
-public class TreeNode<TKey,TValue>
+public class TreeNode<TKey, TValue>
 {
-    public TKey Key {  get; set; }
-    
+    public TKey Key { get; set; }
+
     public TValue Value { get; set; }
     public int Height { get; set; }
 
